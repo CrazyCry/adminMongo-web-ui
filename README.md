@@ -1,3 +1,16 @@
+# MyChanges
+- adminMongo config in config/app.json
+- adminMongo connections config in config/config.json
+
+- delete connections link
+- remove connections string for security
+
+# usage in k8s
+build docker image use `Dockerfile`
+config/app.json and config/config.json can be mounted as configmap
+use NodePort to expose
+Of course, you can write a helm charts
+
 # adminMongo
 
 ![npm downloads badge](https://img.shields.io/npm/dm/admin-mongo.svg "npm download badge")
