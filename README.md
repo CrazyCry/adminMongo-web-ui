@@ -4,6 +4,7 @@
 
 - delete connections link
 - remove connections string for security
+- remove all delete and backup and restor button and list for security
 
 # usage in k8s
 build docker image use `Dockerfile`
