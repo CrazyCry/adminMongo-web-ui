@@ -7,7 +7,7 @@
             <button class="btn btn-success btn-sm" id="coll_create">{{__ "Create"}}</button>
         </span>
     </div></br>
-    <label for="del_coll_name">{{__ "Delete collection"}}</label>
+    {{!-- <label for="del_coll_name">{{__ "Delete collection"}}</label>
     <div class="input-group">
         <select class="form-control input-sm" id="del_coll_name">
             {{#each coll_list}}
@@ -17,7 +17,7 @@
         <span class="input-group-btn">
             <button class="btn btn-danger btn-sm" id="coll_delete">{{__ "Delete"}}</button>
         </span>	
-    </div>
+    </div> --}}
     <div class="formBreak"></div>
     <h4>{{__ "Create User"}}</h4>
     <label for="new_username">{{__ "Username"}}</label>
@@ -38,9 +38,9 @@
                     <option>{{this.user}}</option>
                 {{/each}}
             </select>
-            <span class="input-group-btn">
+            {{!-- <span class="input-group-btn">
                 <button class="btn btn-danger btn-sm" id="user_delete">{{__ "Delete"}}</button>
-            </span>	
+            </span>	 --}}
         </div>
     {{/if}}
 </div>
